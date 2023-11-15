@@ -1,0 +1,10 @@
+services:
+  edvantage-whisper:
+    image: "edvantage-whisper"
+    container_name: "edvantage-whisper"
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      AWS_ACCESS_KEY: AKIATPT5BS65E64KVRDV
+      AWS_SECRET_KEY: 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
